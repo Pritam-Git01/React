@@ -1,0 +1,44 @@
+.wraper {
+    height: 280px;
+    width: 300px;
+    background-color: rgb(166, 97, 231);
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.pic {
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.wraper h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 26px;
+
+}
+.wraper h2 {
+    color: white;
+    padding-left: 26px;
+
+}
+
+.wraper p {
+    color: white;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 16px;
+}
+
+.wraper button {
+    margin-left: 26px;
+    
+}
+
+
+
+
