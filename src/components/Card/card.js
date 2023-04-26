@@ -1,27 +1,38 @@
 import './card.css'
 
-export default function  Profile (props){
+export default function Product ({productDetails,styleProduct}){
 
     const {
-        image,
-        design,
-        name,
-        desc
+    productId,    
+    productPic ,
+    productName ,
+    Brand ,
+    productDescription  ,
+    Price ,
+    Rating 
 
-    } =  props.userDetail
+    } = productDetails
 
-    function handleClick(){
-        alert(name)
+    function handleClick (){
+        alert(`Product of is ${productId},which is ${productName} of brand ${Brand} has of ruppees ${Price} is added in the cart, please procced to pay !!!`)
     }
+
     return (
+
         <div className='wraper'>
-        <img className='pic' src={image} alt='pic'/>
-        <h4>{design}</h4>
-        <h2>{name}</h2>
-        <p>{desc}</p>
-        <button style= {props.styleBtn} onClick={handleClick}> See More</button>
+   
+            <img className='pic' src={productPic} alt='pic'/>
+           
+            <h4>{Brand}</h4>
+            <p>{productDescription}</p>
+            <h4>{Price}</h4>
+            <p>{Rating}</p>
+            <button style = {styleProduct}onClick={handleClick}>ADD TO CART</button>
+
         </div>
     )
+
+    
 }
 
 

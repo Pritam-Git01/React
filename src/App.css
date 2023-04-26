@@ -1,14 +1,10 @@
 .App {
-  /* height: 320px;
-  width: 320px; */
-  text-align: justify;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(237, 151, 165);
-
-    
-  
-
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: whitesmoke;
+   
+}
+.App div {
+  margin-right: 60px;
 }
