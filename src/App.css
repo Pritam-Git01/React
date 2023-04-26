@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.first, .second {
+button {
   height: 40px;
   width: 80px;
   border-radius: 6px;
@@ -10,9 +10,9 @@
   margin: 20px;
 }
 
-.second {
+input {
   height: 40px;
-  width: 80px;
+  width: 200px;
   border-radius: 6px;
   background-color: rgb(245, 222, 179);
   margin: 20px;
