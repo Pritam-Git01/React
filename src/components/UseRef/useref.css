@@ -1,0 +1,36 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper {
+    margin-top: 40px;
+    /* padding: 26px; */
+}
+
+.wraper h2 {
+    padding: 26px;
+    text-decoration: dashed;
+    color: gray;
+}
+
+
+.wraper button {
+    height: 28px;
+    width: 80px;
+    border: 1px solid pink;
+    text-align: center;
+    border-radius: 6px;
+
+    background-color: rgb(193, 144, 243);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: plum;
+}
+
