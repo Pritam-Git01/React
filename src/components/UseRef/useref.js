@@ -23,7 +23,7 @@ export default function UseRefs(){
 
         <h2>For select Files click on Go to File Button</h2>
         <input type="file" ref={inputRef}/>
-        <button className="btn" onClick={handleClick}>Go to File</button>
+        <button className="btn" onClick={handleClick}> Pick the File</button>
 
         </div>
     )
