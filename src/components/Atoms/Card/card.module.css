@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wraper img {
+    align-self: center;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin: 0.8rem;
+}
+.name {
+    align-self: center;
+    font-weight: bolder;
+
+}
+.position {
+    align-self: center;
+    font-size: 0.8rem;
+}
+.exp {
+    align-self: center;
+    color: blueviolet;
+}

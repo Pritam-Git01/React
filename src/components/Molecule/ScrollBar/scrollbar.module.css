@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wraper {
+    max-width: 73%;
+    background-color: rgb(246, 241, 241) transparent;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    overflow: auto;
+    
+}
+.wraper::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    min-height: 12rem;
+    min-width: 14rem;
+    background-color: rgb(227, 236, 249);
+    border-radius: 0.8rem;
+    margin: 1rem 2rem 1rem 1rem;
+
+}
