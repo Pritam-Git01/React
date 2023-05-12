@@ -7,6 +7,7 @@ export default function Card({UserProfile}){
         position,
         Exp
     } = UserProfile
+    
 
 
     return (
