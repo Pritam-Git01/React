@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.status {
+    margin-bottom: 1rem;
+    color: rgb(162, 210, 244);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.firstRow,.secondRow,.thirdRow  {
+    height: calc(14rem/3);
+    width: calc(16rem/3);
+    display: flex;
+    border-radius: 0.2rem; 
+}
+
+.btn {
+    height: 2rem;
+    width: 5.1rem;
+    border-radius: 0.2rem;
+    background-color: rgb(88, 88, 241);
+    border: 2px solid rgb(224, 224, 245);
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+   
+
+

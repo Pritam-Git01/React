@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    height: calc(14rem/3);
+    width: calc(16rem/3);
+    font-size: 2rem;
+    font-weight: 600;
+    background-image: url('../../../background-image.jpg');
+    color: rgb(2, 32, 2);
+    cursor: pointer;
+}
+
+
+ 
