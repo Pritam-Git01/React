@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wraper {
+    height: 60vh;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 1.2rem;
+    background-color: rgb(152, 242, 245);
+    border-radius: 0.8rem;
+    position: fixed;
+}
+.wraper input {
+    height: 2.2rem;
+    width: 14rem;
+    background-color: rgb(246, 231, 231);
+    border: 2px solid rgb(251, 249, 252);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+}
+    .btn {
+        height: 2rem;
+        width: 6rem;
+        color: whitesmoke;
+        background-color: aquamarine;
+        text-decoration: none;
+        border: 1 px solid black;
+        border-radius: 0.2rem; 
+        font-size: 0.8rem;
+        position: relative;
+        z-index: 1;
+        margin-left: 0.8rem;
+    }
+    .btn::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: all 1s;
+    
+    }
+    .btn:hover::before {
+        transform: scaleX(1);
+        z-index: -1;
+    
+    }
+    
+    .delBtn {
+        height: 1.8rem;
+        width: 5.6rem;
+        margin-top: 0.4rem;
+        margin-left: 0.6rem;
+        color: whitesmoke;
+        background-color: rgb(139, 188, 245);
+        text-decoration: none;
+        border: 1 px solid rgb(255, 104, 104);
+        border-radius: 0.2rem; 
+        font-size: 0.8rem;
+        position: relative;
+        z-index: 1;
+    }
+    .delBtn::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: all 1s;
+    
+    }
+    .delBtn:hover::before {
+        transform: scaleX(1);
+        z-index: -1;
+    }
+    .list {
+       color: #6d6def; 
+    }
+    
