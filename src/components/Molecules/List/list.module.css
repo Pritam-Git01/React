@@ -11,9 +11,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .wraper {
-    height: 60vh;
+    height:  fit-content;
     width: 32vw;
     display: flex;
     flex-direction: column;
@@ -22,6 +23,9 @@
     background-color: rgb(152, 242, 245);
     border-radius: 0.8rem;
     position: fixed;
+}
+.taskField {
+    margin-bottom: 1rem;
 }
 .wraper input {
     height: 2.2rem;
@@ -67,16 +71,15 @@
     .delBtn {
         height: 1.8rem;
         width: 5.6rem;
-        margin-top: 0.4rem;
         margin-left: 0.6rem;
         color: whitesmoke;
         background-color: rgb(139, 188, 245);
         text-decoration: none;
-        border: 1 px solid rgb(255, 104, 104);
         border-radius: 0.2rem; 
         font-size: 0.8rem;
         position: relative;
         z-index: 1;
+        border: none;
     }
     .delBtn::before {
         content: "";
@@ -95,7 +98,20 @@
         transform: scaleX(1);
         z-index: -1;
     }
+    .item {
+        margin-bottom: 2rem;
+    }
+
+    
     .list {
        color: #6d6def; 
+       border: 2px solid black;
+       margin-top: 0.6rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 2.4rem;
+       width: 15rem;
+       overflow: hide;
     }
     
