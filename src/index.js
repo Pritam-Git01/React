@@ -3,18 +3,44 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-import ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Contact from './components/Atoms/Router-Page/contact';
+import Login from './components/Atoms/Router-Page/login';
+import Home from './components/Atoms/Router-Page/home';
+import About from './components/Atoms/Router-Page/about';
+import Projects from './components/Atoms/Router-Page/projects';
+import Videos from './components/Atoms/Router-Page/videos';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <App/>,
   },
+  
+{
+  path: "/home",
+  element: <Home/>
+},
+{
+  path: "/about",
+  element: <About/>
+},
+{
+  path: "/projects",
+  element: <Projects/>
+},
+{
+  path: "/videos",
+  element: <Videos/>
+},
+{
+  path: "/contact",
+  element: <Contact/>
+},
+{
+  path: "/login",
+  element: <Login/>
+}
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
